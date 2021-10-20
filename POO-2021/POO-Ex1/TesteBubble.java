@@ -1,0 +1,22 @@
+public class TesteBubble {
+
+    public static void main(String[] args){
+        int i;
+        int a[] = {3,2,5,7,4,6,9,1,8}; //vetor de exemplo
+	
+	    // mostra o vetor
+        System.out.println("Vetor: ");
+        for (i=0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        Bubble.bubble(a);
+
+	    //mostra o vetor ordenado
+        System.out.println("\nVetor ordenado: ");
+        for (i=0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+    
+    }
+}
